@@ -7,4 +7,7 @@ Consider parameterizing secret values in code and replace during build (In Jenki
 `sed -i 's/^start_rpc.*$/start_rpc: true/'` will replace the line that has `start_rpc` with `start_rpc: true` 
 
 docker inspect ip address:
-docker inspect <container id> | grep "IPAddress"
+`docker inspect <container id> | grep "IPAddress"`
+
+Docker prune all
+`docker system prune --all --force --volumes`
