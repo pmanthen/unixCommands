@@ -11,3 +11,9 @@ docker inspect ip address:
 
 Docker prune all
 `docker system prune --all --force --volumes`
+
+Install telnet ` sudo apt-get update && apt-get install telnet`
+
+Run a pod with just ubuntu `kubectl run my-shell --rm -i --tty --image ubuntu -- bash`
+
+Ssh to pod kubectl `exec -it shell-demo -- /bin/bash`
