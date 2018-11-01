@@ -17,3 +17,5 @@ Install telnet ` sudo apt-get update && apt-get install telnet`
 Run a pod with just ubuntu `kubectl run my-shell --rm -i --tty --image ubuntu -- bash`
 
 Ssh to pod kubectl `exec -it shell-demo -- /bin/bash`
+
+Successful git model: https://nvie.com/posts/a-successful-git-branching-model/
